@@ -1,6 +1,13 @@
 import praw
 import config
 
+######################
+# Variables          #
+######################
+targetPhrase = 'Donald Trump'
+responseString = 'You mean the orange guy on TV?'
+######################
+
 def signIn():
     r = praw.Reddit(client_id='CLIENT_ID',
                 client_secret="CLIENT_SECRET",
